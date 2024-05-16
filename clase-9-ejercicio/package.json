@@ -1,0 +1,14 @@
+{
+  "name": "desafio-1-marochi",
+  "version": "1.0.0",
+  "description": "Proyecto para dar solucion al Desafio 1 DDS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Marochi",
+  "license": "ISC",
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  }
+}

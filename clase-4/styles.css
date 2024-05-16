@@ -1,0 +1,45 @@
+* {
+    outline: 1px solid red;
+}
+
+p { 
+    color: blue;
+}
+
+nav {
+    background-color: red;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8%;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav ul li {
+    /* Para poner uno al lado del otro a los li de la navbar */
+    display: inline;
+    /* Para separar los elementos */
+    padding-right: 2rem;
+}
+
+a { 
+    color: azure;
+    /* Para sacarle el subrayado a los textos */
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+<!--  DOCTYPE indica al navegador que se va a encontrar 
+con una página con html5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuarta Clase</title>
+    <link  href="./styles.css"  rel="stylesheet"  type="text/css">
+
+</head>
+<body>
+    <header>
+        <h1>Ejercicio Clase 4</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIYCAEQLhhDGIMBGMcBGLEDGNEDGIAEGIoFMgwIAhAjGCcYgAQYigUyEggDEAAYQxiDARixAxiABBiKBTIMCAQQABhDGIAEGIoFMhIIBRAAGEMYgwEYsQMYgAQYigUyEggGEAAYQxiDARixAxiABBiKBTISCAcQABhDGIMBGLEDGIAEGIoFMgwICBAAGEMYgAQYigXSAQkyMTY5ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8" target="blank" rel="noopener noreferrer">Google</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h1>Formulario </h1>
+            <p>Ingrese sus datos acá, nos comunicaremos a la brevedad.</p>
+        </div>
+        <form id="frm_contacto" action="https://labsys.frc.utn.edu.ar/dds-express/eco" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" >
+            <label for="correo">Correo:</label>
+            <input type="email" name="email" >
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" >
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" cols="30" rows="10" required></textarea>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </main>
+
+    <aside>
+        <h2>Barra lateral</h2>
+        <p>Contenido de la barra lateral...</p>
+    </aside>
+
+    <footer>
+        <p>Pie de página &copy; 2024</p>
+    </footer>
+
+</body>
+</html>

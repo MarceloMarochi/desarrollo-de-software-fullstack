@@ -1,0 +1,7 @@
+Proyecto en el que agregaremos denamicamente con javascript columnas y filas a una tabla html
+con datos de usuarios que levantaremos de una fake api.
+
+El index dependerá del Service, el Service del Data y el Data dependerá del Dominio (Entity)
+Estas Entity serán usuarios que tendrán como propiedades (id, name, email)
+
+La capa servicios es la que tendrá la logica de negocios.
